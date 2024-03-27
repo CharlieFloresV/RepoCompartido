@@ -8,8 +8,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "RepoCompartido",
-            targets: ["RepoCompartido"]),
+            name: "a_module",
+            targets: ["a_module"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
