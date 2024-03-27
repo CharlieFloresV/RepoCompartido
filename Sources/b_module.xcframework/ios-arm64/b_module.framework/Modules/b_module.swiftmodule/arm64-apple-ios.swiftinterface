@@ -61,7 +61,7 @@ public protocol ModBServices {
   var idLocalCompany: Swift.String? { get set }
   var state: Swift.String? { get set }
 }
-public typealias ModBErrorCode = b_module.ModBError
+public typealias ModBErrorCode_ = b_module.ModBError
 public enum ModBError : Swift.Error {
   case configure(reason: Swift.String)
   case notConfigure

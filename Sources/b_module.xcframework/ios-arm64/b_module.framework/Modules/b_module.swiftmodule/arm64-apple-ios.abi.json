@@ -4073,35 +4073,35 @@
     {
       "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/b_module\/b_module\/Core\/ModBError.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1075,
       "length": 57,
       "value": "\"ModBError: Configure cannot configure because \""
     },
     {
       "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/b_module\/b_module\/Core\/ModBError.swift",
       "kind": "StringLiteral",
-      "offset": 1130,
+      "offset": 1131,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/b_module\/b_module\/Core\/ModBError.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1180,
       "length": 65,
       "value": "\"ModBError: You must call configure method from ModBFacade first\""
     },
     {
       "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/b_module\/b_module\/Core\/ModBError.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1305,
       "length": 43,
       "value": "\"ModBError: Service fail because \""
     },
     {
       "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/b_module\/b_module\/Core\/ModBError.swift",
       "kind": "StringLiteral",
-      "offset": 1346,
+      "offset": 1347,
       "length": 1,
       "value": "\"\""
     },
