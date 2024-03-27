@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "RepoCompartido",
+    name: "TEPER_Libraries",
     platforms: [
         .iOS(.v13)
     ],
