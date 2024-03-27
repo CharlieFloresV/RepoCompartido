@@ -4,21 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "RepoCompartido",
+    name: "Ahorrobus_Libraries",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "RepoCompartido",
-            targets: ["a_module",
-                      "b_module",
+            name: "Ahorrobus_Libraries",
+            targets: ["b_module",
                       "c_module"]),
     ],
     targets: [
-        .binaryTarget(
-            name: "a_module",
-            path: "./Sources/a_module.xcframework"),
         .binaryTarget(
             name: "b_module",
             path: "./Sources/b_module.xcframework"),
