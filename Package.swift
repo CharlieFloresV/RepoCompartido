@@ -4,24 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "RepoCompartido",
+    name: "ADO_Libraries",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "RepoCompartido",
+            name: "ADO_Libraries",
             targets: ["a_module",
-                      "b_module",
                       "c_module"]),
     ],
     targets: [
         .binaryTarget(
             name: "a_module",
             path: "./Sources/a_module.xcframework"),
-        .binaryTarget(
-            name: "b_module",
-            path: "./Sources/b_module.xcframework"),
         .binaryTarget(
             name: "c_module",
             path: "./Sources/c_module.xcframework")
