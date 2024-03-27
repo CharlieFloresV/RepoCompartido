@@ -34,7 +34,7 @@ final public class ModAFacade {
   public init()
   @objc deinit
 }
-public typealias ModAErrorCode = a_module.ModAError
+public typealias ModAErrorCode_ = a_module.ModAError
 public enum ModAError : Swift.Error {
   case configure(reason: Swift.String)
   case notConfigure
