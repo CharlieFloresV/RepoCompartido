@@ -11,15 +11,11 @@ let package = Package(
     products: [
         .library(
             name: "RepoCompartido",
-            targets: ["RepoCompartido",
-                      "a_module",
+            targets: ["a_module",
                       "b_module",
                       "c_module"]),
     ],
     targets: [
-        .target(
-            name: "RepoCompartido"
-        ),
         .binaryTarget(
             name: "a_module",
             path: "./Sources/a_module.xcframework"),
