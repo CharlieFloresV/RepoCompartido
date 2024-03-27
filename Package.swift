@@ -12,8 +12,7 @@ let package = Package(
         .library(
             name: "RepoCompartido",
             targets: ["a_module",
-                      "b_module",
-                      "c_module"]),
+                      "b_module"]),
     ],
     targets: [
         .binaryTarget(
@@ -21,9 +20,6 @@ let package = Package(
             path: "./Sources/a_module.xcframework"),
         .binaryTarget(
             name: "b_module",
-            path: "./Sources/b_module.xcframework"),
-        .binaryTarget(
-            name: "c_module",
-            path: "./Sources/c_module.xcframework")
+            path: "./Sources/b_module.xcframework")
     ]
 )
