@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "RepoCompartido",
+            name: "a_module",
             targets: ["a_module",
                       "b_module",
                       "c_module"]),
