@@ -14,6 +14,9 @@ let package = Package(
             targets: ["a_module"]),
     ],
     targets: [
+        .target(
+            name: "RepoCompartido"
+        ),
         .binaryTarget(
             name: "a_module",
             path: "./Sources/a_module.xcframework")
