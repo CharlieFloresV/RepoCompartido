@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "RepoCompartido",
+            name: "TEPER_Libraries",
             targets: ["a_module",
                       "b_module"]),
     ],
