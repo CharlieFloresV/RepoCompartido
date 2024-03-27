@@ -1,0 +1,87 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios17.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name a_module
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import a_module
+public protocol ModAStyle {
+  var titleFont: a_module.ModAFont { get set }
+  var primaryColor: UIKit.UIColor { get set }
+  var navigation: (any a_module.ModANavigation.Type)? { get set }
+  var titleText: Swift.String { get set }
+  var icon: UIKit.UIImageView? { get set }
+}
+public struct ModAFont {
+  public var font: UIKit.UIFont?
+  public var color: UIKit.UIColor
+  public init(font: UIKit.UIFont?, color: UIKit.UIColor)
+}
+final public class ModAFacade {
+  final public var isInitialized: Swift.Bool {
+    get
+  }
+  weak final public var delegate: (any a_module.ModADelegate)? {
+    get
+    set
+  }
+  final public func configure(_ configuration: a_module.ModAConfiguration) throws
+  final public func start() throws -> UIKit.UIViewController
+  public init()
+  @objc deinit
+}
+public typealias ModAErrorCode = a_module.ModAError
+public enum ModAError : Swift.Error {
+  case configure(reason: Swift.String)
+  case notConfigure
+  case networkError(reason: Swift.String)
+}
+extension a_module.ModAError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct ModAConfiguration {
+  public let style: any a_module.ModAStyle
+  public let services: any a_module.ModAServices
+  public init(style: any a_module.ModAStyle, services: any a_module.ModAServices)
+  public init(style: any a_module.ModAStyle = ModAStyleDefault(), idFront: Swift.Int, idLocalCompany: Swift.String)
+}
+public struct ModAServicesDefault : a_module.ModAServices {
+  public var timeOut: Swift.Double?
+  public var cityOrTown: Swift.String?
+  public var country: Swift.String?
+  public var idFront: Swift.Int?
+  public var idLocalCompany: Swift.String?
+  public var state: Swift.String?
+  public init(idFront: Swift.Int, idLocalCompany: Swift.String)
+}
+public protocol ModAServices {
+  var timeOut: Swift.Double? { get set }
+  var cityOrTown: Swift.String? { get set }
+  var country: Swift.String? { get set }
+  var idFront: Swift.Int? { get set }
+  var idLocalCompany: Swift.String? { get set }
+  var state: Swift.String? { get set }
+}
+public protocol ModANavigationDelegate : AnyObject {
+  func close()
+}
+public protocol ModANavigation : UIKit.UINavigationController {
+  var navDelegate: (any a_module.ModANavigationDelegate)? { get set }
+  static func initialize(rootVC: UIKit.UIViewController) -> any a_module.ModANavigation
+}
+public struct ModAStyleDefault : a_module.ModAStyle {
+  public var titleFont: a_module.ModAFont
+  public var primaryColor: UIKit.UIColor
+  public var navigation: (any a_module.ModANavigation.Type)?
+  public var titleText: Swift.String
+  public var icon: UIKit.UIImageView?
+  public init()
+}
+public protocol ModADelegate : AnyObject {
+}

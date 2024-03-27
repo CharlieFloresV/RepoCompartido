@@ -1,0 +1,4116 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCServicesDefault",
+        "printedName": "ModCServicesDefault",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timeOut",
+            "printedName": "timeOut",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module19ModCServicesDefaultV7timeOutSdSgvp",
+            "mangledName": "$s8c_module19ModCServicesDefaultV7timeOutSdSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7timeOutSdSgvg",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7timeOutSdSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7timeOutSdSgvs",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7timeOutSdSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7timeOutSdSgvM",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7timeOutSdSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cityOrTown",
+            "printedName": "cityOrTown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module19ModCServicesDefaultV10cityOrTownSSSgvp",
+            "mangledName": "$s8c_module19ModCServicesDefaultV10cityOrTownSSSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV10cityOrTownSSSgvg",
+                "mangledName": "$s8c_module19ModCServicesDefaultV10cityOrTownSSSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV10cityOrTownSSSgvs",
+                "mangledName": "$s8c_module19ModCServicesDefaultV10cityOrTownSSSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV10cityOrTownSSSgvM",
+                "mangledName": "$s8c_module19ModCServicesDefaultV10cityOrTownSSSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module19ModCServicesDefaultV7countrySSSgvp",
+            "mangledName": "$s8c_module19ModCServicesDefaultV7countrySSSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7countrySSSgvg",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7countrySSSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7countrySSSgvs",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7countrySSSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7countrySSSgvM",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7countrySSSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idFront",
+            "printedName": "idFront",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module19ModCServicesDefaultV7idFrontSiSgvp",
+            "mangledName": "$s8c_module19ModCServicesDefaultV7idFrontSiSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7idFrontSiSgvg",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7idFrontSiSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7idFrontSiSgvs",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7idFrontSiSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV7idFrontSiSgvM",
+                "mangledName": "$s8c_module19ModCServicesDefaultV7idFrontSiSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idLocalCompany",
+            "printedName": "idLocalCompany",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module19ModCServicesDefaultV14idLocalCompanySSSgvp",
+            "mangledName": "$s8c_module19ModCServicesDefaultV14idLocalCompanySSSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV14idLocalCompanySSSgvg",
+                "mangledName": "$s8c_module19ModCServicesDefaultV14idLocalCompanySSSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV14idLocalCompanySSSgvs",
+                "mangledName": "$s8c_module19ModCServicesDefaultV14idLocalCompanySSSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV14idLocalCompanySSSgvM",
+                "mangledName": "$s8c_module19ModCServicesDefaultV14idLocalCompanySSSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module19ModCServicesDefaultV5stateSSSgvp",
+            "mangledName": "$s8c_module19ModCServicesDefaultV5stateSSSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV5stateSSSgvg",
+                "mangledName": "$s8c_module19ModCServicesDefaultV5stateSSSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV5stateSSSgvs",
+                "mangledName": "$s8c_module19ModCServicesDefaultV5stateSSSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module19ModCServicesDefaultV5stateSSSgvM",
+                "mangledName": "$s8c_module19ModCServicesDefaultV5stateSSSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(idFront:idLocalCompany:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCServicesDefault",
+                "printedName": "c_module.ModCServicesDefault",
+                "usr": "s:8c_module19ModCServicesDefaultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8c_module19ModCServicesDefaultV7idFront0E12LocalCompanyACSi_SStcfc",
+            "mangledName": "$s8c_module19ModCServicesDefaultV7idFront0E12LocalCompanyACSi_SStcfc",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8c_module19ModCServicesDefaultV",
+        "mangledName": "$s8c_module19ModCServicesDefaultV",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ModCServices",
+            "printedName": "ModCServices",
+            "usr": "s:8c_module12ModCServicesP",
+            "mangledName": "$s8c_module12ModCServicesP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCFacade",
+        "printedName": "ModCFacade",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module10ModCFacadeC13isInitializedSbvp",
+            "mangledName": "$s8c_module10ModCFacadeC13isInitializedSbvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module10ModCFacadeC13isInitializedSbvg",
+                "mangledName": "$s8c_module10ModCFacadeC13isInitializedSbvg",
+                "moduleName": "c_module",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "c_module.ModCDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module10ModCFacadeC8delegateAA0B9CDelegate_pSgvp",
+            "mangledName": "$s8c_module10ModCFacadeC8delegateAA0B9CDelegate_pSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "c_module.ModCDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCDelegate",
+                        "printedName": "c_module.ModCDelegate",
+                        "usr": "s:8c_module12ModCDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module10ModCFacadeC8delegateAA0B9CDelegate_pSgvg",
+                "mangledName": "$s8c_module10ModCFacadeC8delegateAA0B9CDelegate_pSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "c_module.ModCDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCDelegate",
+                        "printedName": "c_module.ModCDelegate",
+                        "usr": "s:8c_module12ModCDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module10ModCFacadeC8delegateAA0B9CDelegate_pSgvs",
+                "mangledName": "$s8c_module10ModCFacadeC8delegateAA0B9CDelegate_pSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module10ModCFacadeC8delegateAA0B9CDelegate_pSgvM",
+                "mangledName": "$s8c_module10ModCFacadeC8delegateAA0B9CDelegate_pSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModCConfiguration",
+                "printedName": "c_module.ModCConfiguration",
+                "usr": "s:8c_module17ModCConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8c_module10ModCFacadeC9configureyyAA0B14CConfigurationVKF",
+            "mangledName": "$s8c_module10ModCFacadeC9configureyyAA0B14CConfigurationVKF",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8c_module10ModCFacadeC5startSo16UIViewControllerCyKF",
+            "mangledName": "$s8c_module10ModCFacadeC5startSo16UIViewControllerCyKF",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCFacade",
+                "printedName": "c_module.ModCFacade",
+                "usr": "s:8c_module10ModCFacadeC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8c_module10ModCFacadeCACycfc",
+            "mangledName": "$s8c_module10ModCFacadeCACycfc",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8c_module10ModCFacadeC",
+        "mangledName": "$s8c_module10ModCFacadeC",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCError",
+        "printedName": "ModCError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configure",
+            "printedName": "configure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(c_module.ModCError.Type) -> (Swift.String) -> c_module.ModCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> c_module.ModCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCError",
+                        "printedName": "c_module.ModCError",
+                        "usr": "s:8c_module9ModCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "c_module.ModCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCError",
+                        "printedName": "c_module.ModCError",
+                        "usr": "s:8c_module9ModCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8c_module9ModCErrorO9configureyACSS_tcACmF",
+            "mangledName": "$s8c_module9ModCErrorO9configureyACSS_tcACmF",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notConfigure",
+            "printedName": "notConfigure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(c_module.ModCError.Type) -> c_module.ModCError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModCError",
+                    "printedName": "c_module.ModCError",
+                    "usr": "s:8c_module9ModCErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "c_module.ModCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCError",
+                        "printedName": "c_module.ModCError",
+                        "usr": "s:8c_module9ModCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8c_module9ModCErrorO12notConfigureyA2CmF",
+            "mangledName": "$s8c_module9ModCErrorO12notConfigureyA2CmF",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(c_module.ModCError.Type) -> (Swift.String) -> c_module.ModCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> c_module.ModCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCError",
+                        "printedName": "c_module.ModCError",
+                        "usr": "s:8c_module9ModCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "c_module.ModCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCError",
+                        "printedName": "c_module.ModCError",
+                        "usr": "s:8c_module9ModCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8c_module9ModCErrorO12networkErroryACSS_tcACmF",
+            "mangledName": "$s8c_module9ModCErrorO12networkErroryACSS_tcACmF",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module9ModCErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s8c_module9ModCErrorO16errorDescriptionSSSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s8c_module9ModCErrorO16errorDescriptionSSSgvg",
+                "moduleName": "c_module",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8c_module9ModCErrorO",
+        "mangledName": "$s8c_module9ModCErrorO",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCNavigation",
+        "printedName": "ModCNavigation",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "navDelegate",
+            "printedName": "navDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "c_module.ModCNavigationDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModCNavigationDelegate",
+                    "printedName": "c_module.ModCNavigationDelegate",
+                    "usr": "s:8c_module22ModCNavigationDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module14ModCNavigationP11navDelegateAA0bcE0_pSgvp",
+            "mangledName": "$s8c_module14ModCNavigationP11navDelegateAA0bcE0_pSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "c_module.ModCNavigationDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCNavigationDelegate",
+                        "printedName": "c_module.ModCNavigationDelegate",
+                        "usr": "s:8c_module22ModCNavigationDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module14ModCNavigationP11navDelegateAA0bcE0_pSgvg",
+                "mangledName": "$s8c_module14ModCNavigationP11navDelegateAA0bcE0_pSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCNavigation>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCNavigation>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "c_module.ModCNavigationDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCNavigationDelegate",
+                        "printedName": "c_module.ModCNavigationDelegate",
+                        "usr": "s:8c_module22ModCNavigationDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module14ModCNavigationP11navDelegateAA0bcE0_pSgvs",
+                "mangledName": "$s8c_module14ModCNavigationP11navDelegateAA0bcE0_pSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCNavigation>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCNavigation>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module14ModCNavigationP11navDelegateAA0bcE0_pSgvM",
+                "mangledName": "$s8c_module14ModCNavigationP11navDelegateAA0bcE0_pSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCNavigation>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCNavigation>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(rootVC:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCNavigation",
+                "printedName": "c_module.ModCNavigation",
+                "usr": "s:8c_module14ModCNavigationP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8c_module14ModCNavigationP10initialize6rootVCAaB_pSo16UIViewControllerC_tFZ",
+            "mangledName": "$s8c_module14ModCNavigationP10initialize6rootVCAaB_pSo16UIViewControllerC_tFZ",
+            "moduleName": "c_module",
+            "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCNavigation>",
+            "sugared_genericSig": "<Self where Self : c_module.ModCNavigation>",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8c_module14ModCNavigationP",
+        "mangledName": "$s8c_module14ModCNavigationP",
+        "moduleName": "c_module",
+        "genericSig": "<τ_0_0 : UIKit.UINavigationController>",
+        "sugared_genericSig": "<Self : UIKit.UINavigationController>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCFont",
+        "printedName": "ModCFont",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "font",
+            "printedName": "font",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module8ModCFontV4fontSo6UIFontCSgvp",
+            "mangledName": "$s8c_module8ModCFontV4fontSo6UIFontCSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module8ModCFontV4fontSo6UIFontCSgvg",
+                "mangledName": "$s8c_module8ModCFontV4fontSo6UIFontCSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module8ModCFontV4fontSo6UIFontCSgvs",
+                "mangledName": "$s8c_module8ModCFontV4fontSo6UIFontCSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module8ModCFontV4fontSo6UIFontCSgvM",
+                "mangledName": "$s8c_module8ModCFontV4fontSo6UIFontCSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module8ModCFontV5colorSo7UIColorCvp",
+            "mangledName": "$s8c_module8ModCFontV5colorSo7UIColorCvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module8ModCFontV5colorSo7UIColorCvg",
+                "mangledName": "$s8c_module8ModCFontV5colorSo7UIColorCvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module8ModCFontV5colorSo7UIColorCvs",
+                "mangledName": "$s8c_module8ModCFontV5colorSo7UIColorCvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module8ModCFontV5colorSo7UIColorCvM",
+                "mangledName": "$s8c_module8ModCFontV5colorSo7UIColorCvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(font:color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCFont",
+                "printedName": "c_module.ModCFont",
+                "usr": "s:8c_module8ModCFontV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8c_module8ModCFontV4font5colorACSo6UIFontCSg_So7UIColorCtcfc",
+            "mangledName": "$s8c_module8ModCFontV4font5colorACSo6UIFontCSg_So7UIColorCtcfc",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8c_module8ModCFontV",
+        "mangledName": "$s8c_module8ModCFontV",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCDelegate",
+        "printedName": "ModCDelegate",
+        "declKind": "Protocol",
+        "usr": "s:8c_module12ModCDelegateP",
+        "mangledName": "$s8c_module12ModCDelegateP",
+        "moduleName": "c_module",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCStyle",
+        "printedName": "ModCStyle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "titleFont",
+            "printedName": "titleFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCFont",
+                "printedName": "c_module.ModCFont",
+                "usr": "s:8c_module8ModCFontV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module9ModCStyleP9titleFontAA0B5CFontVvp",
+            "mangledName": "$s8c_module9ModCStyleP9titleFontAA0B5CFontVvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModCFont",
+                    "printedName": "c_module.ModCFont",
+                    "usr": "s:8c_module8ModCFontV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP9titleFontAA0B5CFontVvg",
+                "mangledName": "$s8c_module9ModCStyleP9titleFontAA0B5CFontVvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModCFont",
+                    "printedName": "c_module.ModCFont",
+                    "usr": "s:8c_module8ModCFontV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP9titleFontAA0B5CFontVvs",
+                "mangledName": "$s8c_module9ModCStyleP9titleFontAA0B5CFontVvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP9titleFontAA0B5CFontVvM",
+                "mangledName": "$s8c_module9ModCStyleP9titleFontAA0B5CFontVvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryColor",
+            "printedName": "primaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module9ModCStyleP12primaryColorSo7UIColorCvp",
+            "mangledName": "$s8c_module9ModCStyleP12primaryColorSo7UIColorCvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP12primaryColorSo7UIColorCvg",
+                "mangledName": "$s8c_module9ModCStyleP12primaryColorSo7UIColorCvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP12primaryColorSo7UIColorCvs",
+                "mangledName": "$s8c_module9ModCStyleP12primaryColorSo7UIColorCvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP12primaryColorSo7UIColorCvM",
+                "mangledName": "$s8c_module9ModCStyleP12primaryColorSo7UIColorCvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navigation",
+            "printedName": "navigation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "c_module.ModCNavigation.Type?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "c_module.ModCNavigation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCNavigation",
+                        "printedName": "c_module.ModCNavigation",
+                        "usr": "s:8c_module14ModCNavigationP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module9ModCStyleP10navigationAA0B11CNavigation_pXpSgvp",
+            "mangledName": "$s8c_module9ModCStyleP10navigationAA0B11CNavigation_pXpSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "c_module.ModCNavigation.Type?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExistentialMetatype",
+                        "printedName": "c_module.ModCNavigation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModCNavigation",
+                            "printedName": "c_module.ModCNavigation",
+                            "usr": "s:8c_module14ModCNavigationP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP10navigationAA0B11CNavigation_pXpSgvg",
+                "mangledName": "$s8c_module9ModCStyleP10navigationAA0B11CNavigation_pXpSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "c_module.ModCNavigation.Type?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExistentialMetatype",
+                        "printedName": "c_module.ModCNavigation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModCNavigation",
+                            "printedName": "c_module.ModCNavigation",
+                            "usr": "s:8c_module14ModCNavigationP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP10navigationAA0B11CNavigation_pXpSgvs",
+                "mangledName": "$s8c_module9ModCStyleP10navigationAA0B11CNavigation_pXpSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP10navigationAA0B11CNavigation_pXpSgvM",
+                "mangledName": "$s8c_module9ModCStyleP10navigationAA0B11CNavigation_pXpSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "titleText",
+            "printedName": "titleText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module9ModCStyleP9titleTextSSvp",
+            "mangledName": "$s8c_module9ModCStyleP9titleTextSSvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP9titleTextSSvg",
+                "mangledName": "$s8c_module9ModCStyleP9titleTextSSvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP9titleTextSSvs",
+                "mangledName": "$s8c_module9ModCStyleP9titleTextSSvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP9titleTextSSvM",
+                "mangledName": "$s8c_module9ModCStyleP9titleTextSSvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module9ModCStyleP4iconSo11UIImageViewCSgvp",
+            "mangledName": "$s8c_module9ModCStyleP4iconSo11UIImageViewCSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP4iconSo11UIImageViewCSgvg",
+                "mangledName": "$s8c_module9ModCStyleP4iconSo11UIImageViewCSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP4iconSo11UIImageViewCSgvs",
+                "mangledName": "$s8c_module9ModCStyleP4iconSo11UIImageViewCSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module9ModCStyleP4iconSo11UIImageViewCSgvM",
+                "mangledName": "$s8c_module9ModCStyleP4iconSo11UIImageViewCSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCStyle>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCStyle>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8c_module9ModCStyleP",
+        "mangledName": "$s8c_module9ModCStyleP",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCConfiguration",
+        "printedName": "ModCConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "style",
+            "printedName": "style",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCStyle",
+                "printedName": "c_module.ModCStyle",
+                "usr": "s:8c_module9ModCStyleP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module17ModCConfigurationV5styleAA0B6CStyle_pvp",
+            "mangledName": "$s8c_module17ModCConfigurationV5styleAA0B6CStyle_pvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModCStyle",
+                    "printedName": "c_module.ModCStyle",
+                    "usr": "s:8c_module9ModCStyleP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module17ModCConfigurationV5styleAA0B6CStyle_pvg",
+                "mangledName": "$s8c_module17ModCConfigurationV5styleAA0B6CStyle_pvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "services",
+            "printedName": "services",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCServices",
+                "printedName": "c_module.ModCServices",
+                "usr": "s:8c_module12ModCServicesP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module17ModCConfigurationV8servicesAA0B9CServices_pvp",
+            "mangledName": "$s8c_module17ModCConfigurationV8servicesAA0B9CServices_pvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModCServices",
+                    "printedName": "c_module.ModCServices",
+                    "usr": "s:8c_module12ModCServicesP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module17ModCConfigurationV8servicesAA0B9CServices_pvg",
+                "mangledName": "$s8c_module17ModCConfigurationV8servicesAA0B9CServices_pvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:services:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCConfiguration",
+                "printedName": "c_module.ModCConfiguration",
+                "usr": "s:8c_module17ModCConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModCStyle",
+                "printedName": "c_module.ModCStyle",
+                "usr": "s:8c_module9ModCStyleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModCServices",
+                "printedName": "c_module.ModCServices",
+                "usr": "s:8c_module12ModCServicesP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8c_module17ModCConfigurationV5style8servicesAcA0B6CStyle_p_AA0B9CServices_ptcfc",
+            "mangledName": "$s8c_module17ModCConfigurationV5style8servicesAcA0B6CStyle_p_AA0B9CServices_ptcfc",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:idFront:idLocalCompany:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCConfiguration",
+                "printedName": "c_module.ModCConfiguration",
+                "usr": "s:8c_module17ModCConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ModCStyle",
+                "printedName": "c_module.ModCStyle",
+                "hasDefaultArg": true,
+                "usr": "s:8c_module9ModCStyleP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8c_module17ModCConfigurationV5style7idFront0E12LocalCompanyAcA0B6CStyle_p_SiSStcfc",
+            "mangledName": "$s8c_module17ModCConfigurationV5style7idFront0E12LocalCompanyAcA0B6CStyle_p_SiSStcfc",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8c_module17ModCConfigurationV",
+        "mangledName": "$s8c_module17ModCConfigurationV",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCStyleDefault",
+        "printedName": "ModCStyleDefault",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "titleFont",
+            "printedName": "titleFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCFont",
+                "printedName": "c_module.ModCFont",
+                "usr": "s:8c_module8ModCFontV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module16ModCStyleDefaultV9titleFontAA0B5CFontVvp",
+            "mangledName": "$s8c_module16ModCStyleDefaultV9titleFontAA0B5CFontVvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModCFont",
+                    "printedName": "c_module.ModCFont",
+                    "usr": "s:8c_module8ModCFontV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV9titleFontAA0B5CFontVvg",
+                "mangledName": "$s8c_module16ModCStyleDefaultV9titleFontAA0B5CFontVvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModCFont",
+                    "printedName": "c_module.ModCFont",
+                    "usr": "s:8c_module8ModCFontV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV9titleFontAA0B5CFontVvs",
+                "mangledName": "$s8c_module16ModCStyleDefaultV9titleFontAA0B5CFontVvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV9titleFontAA0B5CFontVvM",
+                "mangledName": "$s8c_module16ModCStyleDefaultV9titleFontAA0B5CFontVvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryColor",
+            "printedName": "primaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module16ModCStyleDefaultV12primaryColorSo7UIColorCvp",
+            "mangledName": "$s8c_module16ModCStyleDefaultV12primaryColorSo7UIColorCvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV12primaryColorSo7UIColorCvg",
+                "mangledName": "$s8c_module16ModCStyleDefaultV12primaryColorSo7UIColorCvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV12primaryColorSo7UIColorCvs",
+                "mangledName": "$s8c_module16ModCStyleDefaultV12primaryColorSo7UIColorCvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV12primaryColorSo7UIColorCvM",
+                "mangledName": "$s8c_module16ModCStyleDefaultV12primaryColorSo7UIColorCvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navigation",
+            "printedName": "navigation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "c_module.ModCNavigation.Type?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "c_module.ModCNavigation.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModCNavigation",
+                        "printedName": "c_module.ModCNavigation",
+                        "usr": "s:8c_module14ModCNavigationP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module16ModCStyleDefaultV10navigationAA0B11CNavigation_pXpSgvp",
+            "mangledName": "$s8c_module16ModCStyleDefaultV10navigationAA0B11CNavigation_pXpSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "c_module.ModCNavigation.Type?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExistentialMetatype",
+                        "printedName": "c_module.ModCNavigation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModCNavigation",
+                            "printedName": "c_module.ModCNavigation",
+                            "usr": "s:8c_module14ModCNavigationP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV10navigationAA0B11CNavigation_pXpSgvg",
+                "mangledName": "$s8c_module16ModCStyleDefaultV10navigationAA0B11CNavigation_pXpSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "c_module.ModCNavigation.Type?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExistentialMetatype",
+                        "printedName": "c_module.ModCNavigation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModCNavigation",
+                            "printedName": "c_module.ModCNavigation",
+                            "usr": "s:8c_module14ModCNavigationP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV10navigationAA0B11CNavigation_pXpSgvs",
+                "mangledName": "$s8c_module16ModCStyleDefaultV10navigationAA0B11CNavigation_pXpSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV10navigationAA0B11CNavigation_pXpSgvM",
+                "mangledName": "$s8c_module16ModCStyleDefaultV10navigationAA0B11CNavigation_pXpSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "titleText",
+            "printedName": "titleText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module16ModCStyleDefaultV9titleTextSSvp",
+            "mangledName": "$s8c_module16ModCStyleDefaultV9titleTextSSvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV9titleTextSSvg",
+                "mangledName": "$s8c_module16ModCStyleDefaultV9titleTextSSvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV9titleTextSSvs",
+                "mangledName": "$s8c_module16ModCStyleDefaultV9titleTextSSvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV9titleTextSSvM",
+                "mangledName": "$s8c_module16ModCStyleDefaultV9titleTextSSvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module16ModCStyleDefaultV4iconSo11UIImageViewCSgvp",
+            "mangledName": "$s8c_module16ModCStyleDefaultV4iconSo11UIImageViewCSgvp",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV4iconSo11UIImageViewCSgvg",
+                "mangledName": "$s8c_module16ModCStyleDefaultV4iconSo11UIImageViewCSgvg",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV4iconSo11UIImageViewCSgvs",
+                "mangledName": "$s8c_module16ModCStyleDefaultV4iconSo11UIImageViewCSgvs",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module16ModCStyleDefaultV4iconSo11UIImageViewCSgvM",
+                "mangledName": "$s8c_module16ModCStyleDefaultV4iconSo11UIImageViewCSgvM",
+                "moduleName": "c_module",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModCStyleDefault",
+                "printedName": "c_module.ModCStyleDefault",
+                "usr": "s:8c_module16ModCStyleDefaultV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8c_module16ModCStyleDefaultVACycfc",
+            "mangledName": "$s8c_module16ModCStyleDefaultVACycfc",
+            "moduleName": "c_module",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8c_module16ModCStyleDefaultV",
+        "mangledName": "$s8c_module16ModCStyleDefaultV",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ModCStyle",
+            "printedName": "ModCStyle",
+            "usr": "s:8c_module9ModCStyleP",
+            "mangledName": "$s8c_module9ModCStyleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCServices",
+        "printedName": "ModCServices",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timeOut",
+            "printedName": "timeOut",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module12ModCServicesP7timeOutSdSgvp",
+            "mangledName": "$s8c_module12ModCServicesP7timeOutSdSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7timeOutSdSgvg",
+                "mangledName": "$s8c_module12ModCServicesP7timeOutSdSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7timeOutSdSgvs",
+                "mangledName": "$s8c_module12ModCServicesP7timeOutSdSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7timeOutSdSgvM",
+                "mangledName": "$s8c_module12ModCServicesP7timeOutSdSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cityOrTown",
+            "printedName": "cityOrTown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module12ModCServicesP10cityOrTownSSSgvp",
+            "mangledName": "$s8c_module12ModCServicesP10cityOrTownSSSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP10cityOrTownSSSgvg",
+                "mangledName": "$s8c_module12ModCServicesP10cityOrTownSSSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP10cityOrTownSSSgvs",
+                "mangledName": "$s8c_module12ModCServicesP10cityOrTownSSSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP10cityOrTownSSSgvM",
+                "mangledName": "$s8c_module12ModCServicesP10cityOrTownSSSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module12ModCServicesP7countrySSSgvp",
+            "mangledName": "$s8c_module12ModCServicesP7countrySSSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7countrySSSgvg",
+                "mangledName": "$s8c_module12ModCServicesP7countrySSSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7countrySSSgvs",
+                "mangledName": "$s8c_module12ModCServicesP7countrySSSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7countrySSSgvM",
+                "mangledName": "$s8c_module12ModCServicesP7countrySSSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idFront",
+            "printedName": "idFront",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module12ModCServicesP7idFrontSiSgvp",
+            "mangledName": "$s8c_module12ModCServicesP7idFrontSiSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7idFrontSiSgvg",
+                "mangledName": "$s8c_module12ModCServicesP7idFrontSiSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7idFrontSiSgvs",
+                "mangledName": "$s8c_module12ModCServicesP7idFrontSiSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP7idFrontSiSgvM",
+                "mangledName": "$s8c_module12ModCServicesP7idFrontSiSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idLocalCompany",
+            "printedName": "idLocalCompany",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module12ModCServicesP14idLocalCompanySSSgvp",
+            "mangledName": "$s8c_module12ModCServicesP14idLocalCompanySSSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP14idLocalCompanySSSgvg",
+                "mangledName": "$s8c_module12ModCServicesP14idLocalCompanySSSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP14idLocalCompanySSSgvs",
+                "mangledName": "$s8c_module12ModCServicesP14idLocalCompanySSSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP14idLocalCompanySSSgvM",
+                "mangledName": "$s8c_module12ModCServicesP14idLocalCompanySSSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8c_module12ModCServicesP5stateSSSgvp",
+            "mangledName": "$s8c_module12ModCServicesP5stateSSSgvp",
+            "moduleName": "c_module",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP5stateSSSgvg",
+                "mangledName": "$s8c_module12ModCServicesP5stateSSSgvg",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP5stateSSSgvs",
+                "mangledName": "$s8c_module12ModCServicesP5stateSSSgvs",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8c_module12ModCServicesP5stateSSSgvM",
+                "mangledName": "$s8c_module12ModCServicesP5stateSSSgvM",
+                "moduleName": "c_module",
+                "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCServices>",
+                "sugared_genericSig": "<Self where Self : c_module.ModCServices>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8c_module12ModCServicesP",
+        "mangledName": "$s8c_module12ModCServicesP",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "c_module",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModCNavigationDelegate",
+        "printedName": "ModCNavigationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8c_module22ModCNavigationDelegateP5closeyyF",
+            "mangledName": "$s8c_module22ModCNavigationDelegateP5closeyyF",
+            "moduleName": "c_module",
+            "genericSig": "<τ_0_0 where τ_0_0 : c_module.ModCNavigationDelegate>",
+            "sugared_genericSig": "<Self where Self : c_module.ModCNavigationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8c_module22ModCNavigationDelegateP",
+        "mangledName": "$s8c_module22ModCNavigationDelegateP",
+        "moduleName": "c_module",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCServicesDefault.swift",
+      "kind": "FloatLiteral",
+      "offset": 485,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCServicesDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 12,
+      "value": "\"cityOrTown\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCServicesDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCServicesDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 50,
+      "value": "\"idFront is nil or idLocalCompany is empty or nil\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCError.swift",
+      "kind": "StringLiteral",
+      "offset": 1074,
+      "length": 57,
+      "value": "\"ModCError: Configure cannot configure because \""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCError.swift",
+      "kind": "StringLiteral",
+      "offset": 1130,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCError.swift",
+      "kind": "StringLiteral",
+      "offset": 1179,
+      "length": 65,
+      "value": "\"ModCError: You must call configure method from ModCFacade first\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCError.swift",
+      "kind": "StringLiteral",
+      "offset": 1304,
+      "length": 43,
+      "value": "\"ModCError: Service fail because \""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCError.swift",
+      "kind": "StringLiteral",
+      "offset": 1346,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCConstant.swift",
+      "kind": "BooleanLiteral",
+      "offset": 587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCConstant.swift",
+      "kind": "BooleanLiteral",
+      "offset": 986,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 27,
+      "value": "\"Wellcome to ModC module!!\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 26,
+      "value": "\"ModC module [ERROR 🔴]\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 28,
+      "value": "\"ModC module [WARNING 🟠]\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 28,
+      "value": "\"ModC module [SUCCESS 🟢]\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 26,
+      "value": "\"ModC module [DEBUG 🔵]\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 28,
+      "value": "\"ModC module [NETWORK 🌍]\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 35,
+      "value": "\"ModC module [SIMULATOR ONLY 🤖]\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 5,
+      "value": "\"---\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1442,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1513,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1531,
+      "length": 62,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1544,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 1,
+      "value": "\" [\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1574,
+      "length": 1,
+      "value": "\" - line \""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1589,
+      "length": 1,
+      "value": "\"]: \""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 11,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1636,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCStyleDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 468,
+      "length": 14,
+      "value": "\"Avenir-Black\""
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCStyleDefault.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/carlosandresfloresdelavega\/Documents\/PROYECTOS\/ADO\/Package_And_Frameworks\/Modulos\/c_module\/c_module\/Core\/ModCStyleDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 25,
+      "value": "\"Wellcome to ModC module\""
+    }
+  ]
+}
