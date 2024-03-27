@@ -10,8 +10,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "a_module",
-            targets: ["a_module"]),
+            name: "RepoCompartido",
+            targets: ["RepoCompartido"]),
     ],
     targets: [
         .target(
